@@ -23,19 +23,19 @@
           <mxGeometry x="52" y="100" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-7" value="使用QueryWrapper动态构建SQL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="281" y="460" width="259" height="66" as="geometry" />
+          <mxGeometry x="5" y="190" width="259" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-8" value="执行多条件模糊查询&#xa;从book表关联category表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="497" y="600" width="236" height="66" as="geometry" />
+          <mxGeometry x="324" y="210" width="236" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-9" value="分页查询，返回Page对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="660" width="237" height="48" as="geometry" />
+          <mxGeometry x="630" y="210" width="237" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-10" value="后端封装结果&#xa;包含图书列表、总记录数、页码等" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="29" y="666" width="252" height="84" as="geometry" />
+          <mxGeometry x="615" y="310" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-11" value="前端接收JSON数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="390" y="950" width="192" height="48" as="geometry" />
+          <mxGeometry x="423" y="470" width="192" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-12" value="渲染图书列表卡片/表格" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="140" y="1000" width="228" height="48" as="geometry" />
