@@ -25,9 +25,6 @@
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-7" value="使用QueryWrapper动态构建SQL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="5" y="190" width="259" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-8" value="执行多条件模糊查询&#xa;从book表关联category表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="324" y="210" width="236" height="66" as="geometry" />
-        </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-9" value="分页查询，返回Page对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="630" y="210" width="237" height="48" as="geometry" />
         </mxCell>
@@ -56,7 +53,7 @@
           <mxGeometry x="128.5" y="1230" width="251" height="84" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-18" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="378" y="1730" width="92" height="48" as="geometry" />
+          <mxGeometry x="418" y="1400" width="92" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-19" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-1" target="AR5bKGWFHT2UQ_e6fUU1-2">
           <mxGeometry relative="1" as="geometry" />
@@ -86,14 +83,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-7" target="AR5bKGWFHT2UQ_e6fUU1-8">
+        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-8" target="AR5bKGWFHT2UQ_e6fUU1-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="442" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-9" target="AR5bKGWFHT2UQ_e6fUU1-10">
