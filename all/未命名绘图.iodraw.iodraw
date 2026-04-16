@@ -38,22 +38,22 @@
           <mxGeometry x="423" y="470" width="192" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-12" value="渲染图书列表卡片/表格" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1000" width="228" height="48" as="geometry" />
+          <mxGeometry x="140" y="460" width="228" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-13" value="是否需要查看详情?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1050" width="183" height="183" as="geometry" />
+          <mxGeometry x="100" y="700" width="183" height="183" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-14" value="点击某本图书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1260" width="156" height="48" as="geometry" />
+          <mxGeometry x="432" y="760" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-15" value="跳转图书详情页&#xa;请求GET /books/{bookId}" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1320" width="242" height="66" as="geometry" />
+          <mxGeometry x="510" y="1090" width="242" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-16" value="后端查询单本图书&#xa;及当前库存、借阅状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1560" width="220" height="66" as="geometry" />
+          <mxGeometry x="456" y="1230" width="220" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-17" value="展示完整信息：&#xa;书名、作者、ISBN、简介、馆藏位置、是否可借" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="185.5" y="1560" width="251" height="84" as="geometry" />
+          <mxGeometry x="128.5" y="1230" width="251" height="84" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-18" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="378" y="1730" width="92" height="48" as="geometry" />
