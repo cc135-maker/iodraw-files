@@ -11,16 +11,16 @@
           <mxGeometry x="300" y="-60" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-3" value="支持：书名/作者/ISBN/分类" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="390" y="20" width="245" height="66" as="geometry" />
+          <mxGeometry x="560" y="-50" width="245" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-4" value="点击“搜索”按钮" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="560" y="150" width="173" height="48" as="geometry" />
+          <mxGeometry x="610" y="90" width="173" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-5" value="前端构造请求&#xa;GET /books/search?keyword=xxx&amp;amp;category=yyy&amp;amp;page=1&amp;amp;size=10" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="340" y="250" width="259" height="119" as="geometry" />
+          <mxGeometry x="264" y="29" width="259" height="119" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-6" value="后端接收参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="590" y="430" width="156" height="48" as="geometry" />
+          <mxGeometry x="52" y="100" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-7" value="使用QueryWrapper动态构建SQL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="281" y="460" width="259" height="66" as="geometry" />
