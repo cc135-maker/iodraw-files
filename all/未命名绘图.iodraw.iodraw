@@ -14,7 +14,7 @@
           <mxGeometry x="560" y="-50" width="245" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-4" value="点击“搜索”按钮" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="610" y="90" width="173" height="48" as="geometry" />
+          <mxGeometry x="617" y="64.5" width="173" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-5" value="前端构造请求&#xa;GET /books/search?keyword=xxx&amp;amp;category=yyy&amp;amp;page=1&amp;amp;size=10" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="264" y="29" width="259" height="119" as="geometry" />
@@ -23,22 +23,22 @@
           <mxGeometry x="30" y="42" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-7" value="使用QueryWrapper动态构建SQL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3.5" y="130" width="259" height="66" as="geometry" />
+          <mxGeometry x="-21.5" y="171" width="259" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-9" value="分页查询，返回Page对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="180" width="237" height="48" as="geometry" />
+          <mxGeometry x="323" y="171" width="237" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-10" value="后端封装结果&#xa;包含图书列表、总记录数、页码等" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="650" y="162" width="252" height="84" as="geometry" />
+          <mxGeometry x="630" y="148" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-15" value="跳转图书详情页&#xa;请求GET /books/{bookId}" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="655" y="280" width="242" height="66" as="geometry" />
+          <mxGeometry x="655" y="260" width="242" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-16" value="后端查询单本图书&#xa;及当前库存、借阅状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="350" y="319" width="220" height="66" as="geometry" />
+          <mxGeometry x="340" y="270" width="220" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-17" value="展示完整信息：&#xa;书名、作者、ISBN、简介、馆藏位置、是否可借" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="4.5" y="319" width="251" height="84" as="geometry" />
+          <mxGeometry x="-17.5" y="261" width="251" height="84" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-19" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-1" target="AR5bKGWFHT2UQ_e6fUU1-2">
           <mxGeometry relative="1" as="geometry" />
@@ -48,23 +48,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="442" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-9" target="AR5bKGWFHT2UQ_e6fUU1-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-15" target="AR5bKGWFHT2UQ_e6fUU1-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-16" target="AR5bKGWFHT2UQ_e6fUU1-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
