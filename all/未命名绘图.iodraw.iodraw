@@ -16,8 +16,14 @@
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-3" value="支持：书名/作者/ISBN/分类" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="570" y="-60" width="245" height="66" as="geometry" />
         </mxCell>
+        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-4" target="AR5bKGWFHT2UQ_e6fUU1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-4" value="点击“搜索”按钮" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="617" y="64.5" width="173" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-5" target="AR5bKGWFHT2UQ_e6fUU1-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-5" value="前端构造请求&#xa;GET /books/search?keyword=xxx&amp;amp;category=yyy&amp;amp;page=1&amp;amp;size=10" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="264" y="29" width="259" height="119" as="geometry" />
@@ -49,6 +55,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.014;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-2" target="AR5bKGWFHT2UQ_e6fUU1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AR5bKGWFHT2UQ_e6fUU1-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.451;entryY=0.094;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-3" target="AR5bKGWFHT2UQ_e6fUU1-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
