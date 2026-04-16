@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-1" value="用户进入图书检索页面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="79" y="-10" width="220" height="48" as="geometry" />
+          <mxGeometry x="20" y="-60" width="220" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-2" value="输入查询条件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="110" width="156" height="48" as="geometry" />
+          <mxGeometry x="300" y="-60" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-3" value="支持：书名/作者/ISBN/分类" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="390" y="20" width="245" height="66" as="geometry" />
@@ -47,16 +47,16 @@
           <mxGeometry x="470" y="1260" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-15" value="跳转图书详情页&#xa;请求GET /books/{bookId}" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="68" y="1683" width="242" height="66" as="geometry" />
+          <mxGeometry x="190" y="1320" width="242" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-16" value="后端查询单本图书&#xa;及当前库存、借阅状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="79" y="1799" width="220" height="66" as="geometry" />
+          <mxGeometry x="450" y="1560" width="220" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-17" value="展示完整信息：&#xa;书名、作者、ISBN、简介、馆藏位置、是否可借" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="64" y="1915" width="251" height="84" as="geometry" />
+          <mxGeometry x="185.5" y="1560" width="251" height="84" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-18" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="143" y="2048" width="92" height="48" as="geometry" />
+          <mxGeometry x="378" y="1730" width="92" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-19" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AR5bKGWFHT2UQ_e6fUU1-1" target="AR5bKGWFHT2UQ_e6fUU1-2">
           <mxGeometry relative="1" as="geometry" />
