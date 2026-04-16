@@ -29,22 +29,22 @@
           <mxGeometry x="497" y="600" width="236" height="66" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-9" value="分页查询，返回Page对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="71" y="900" width="237" height="48" as="geometry" />
+          <mxGeometry x="200" y="660" width="237" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-10" value="后端封装结果&#xa;包含图书列表、总记录数、页码等" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="63" y="999" width="252" height="84" as="geometry" />
+          <mxGeometry x="29" y="666" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-11" value="前端接收JSON数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="93" y="1132" width="192" height="48" as="geometry" />
+          <mxGeometry x="390" y="950" width="192" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-12" value="渲染图书列表卡片/表格" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="75" y="1231" width="228" height="48" as="geometry" />
+          <mxGeometry x="140" y="1000" width="228" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-13" value="是否需要查看详情?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="98" y="1329" width="183" height="183" as="geometry" />
+          <mxGeometry x="340" y="1050" width="183" height="183" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-14" value="点击某本图书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="111" y="1584" width="156" height="48" as="geometry" />
+          <mxGeometry x="470" y="1260" width="156" height="48" as="geometry" />
         </mxCell>
         <mxCell id="AR5bKGWFHT2UQ_e6fUU1-15" value="跳转图书详情页&#xa;请求GET /books/{bookId}" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="68" y="1683" width="242" height="66" as="geometry" />
